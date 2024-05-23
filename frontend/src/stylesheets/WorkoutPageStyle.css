@@ -1,0 +1,92 @@
+.workout {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+}
+
+.workout__exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.exercise-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--text-black-900);
+    text-transform: uppercase;
+}
+
+.workout__exercise {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.workout__exercise--reverse {
+    flex-direction: row-reverse;
+}
+
+
+.workout__exercise__image img {
+    height: auto;
+    width: 350px;
+}
+
+.workout__exercise__content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    gap: 15px;
+}
+
+
+.workout__exercise--reverse .workout__exercise__content {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.workout__exercise__content h2 {
+    font-size: 50px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #333;
+    color: transparent;
+
+}
+
+.workout__exercise__content span{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: var(--skin-color);
+    padding: 5px 20px;
+    border-radius: 35px;
+    width: fit-content;
+}
+
+.workout__exercise__content p {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--text-black-700);
+}
+
+.workout__exercises h3{
+    -webkit-text-stroke: 1.5px var(--skin-color);
+    color: transparent;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
